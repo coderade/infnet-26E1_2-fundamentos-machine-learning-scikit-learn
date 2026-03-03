@@ -23,11 +23,6 @@ source .venv/bin/activate
 uv pip install -r requirements.txt
 ```
 
-### Registrar kernel no Jupyter
-
-```bash
-.venv/bin/python -m ipykernel install --user --name=ml-heart-disease --display-name="Python (ML Heart Disease)"
-```
 
 ## Dataset
 
@@ -52,8 +47,6 @@ O dataset é carregado automaticamente pelo notebook via URL do UCI Machine Lear
 projeto/
 ├── projeto_ml_heart_disease.ipynb  # Notebook principal
 ├── requirements.txt                # Dependências
-├── actividade.md                   # Descrição da atividade
-├── avaliacao.md                    # Critérios de avaliação
 └── README.md                       # Este arquivo
 ```
 
